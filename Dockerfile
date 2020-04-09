@@ -1,6 +1,6 @@
 FROM tiangolo/uwsgi-nginx:python3.7-alpine3.8
 
-LABEL maintainer="Sebastian Ramirez <tiangolo@gmail.com>"
+LABEL maintainer="ADOFSOGIMA>"
 
 RUN pip install flask
 
