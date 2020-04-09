@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel = "shortcut icon" type = "imagem/x-icon" href = "{{ url_for('static', filename='images/favicon.ico') }}"/>
+    <title>ADOFSOGIMA.ORG</title>
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/index.css') }}">
+</head>
+<body>
+    <center>
+        
+        <h1>ADOFSOGIMA.ORG</h1>
+        <p>Site desenvolvido e idealizado por :</p>
+
+        <div class="roman-pagination">
+	
+            <label class="roman-radio">
+                <input type="radio" name="radioName" >
+                <span class="numeral">I.</span>
+                <span class="title"><a href="./marzyu" class="nounderline">Masio</a></span>
+            </label>
+            
+            <label class="roman-radio">
+                <input type="radio" name="radioName">
+                <span class="numeral">II.</span>
+                <span class="title"><a href="./lad" class="nounderline">LAD</a></span>
+            </label>
+            
+            <label class="roman-radio">
+                <input type="radio" name="radioName">
+                <span class="numeral">III.</span>
+                <span class="title"><a href="./felipos" class="nounderline">Felps</a></span>
+            </label>
+            
+            <label class="roman-radio">
+                <input type="radio" name="radioName">
+                <span class="numeral">IV.</span>
+                <span class="title"><a href="./hitek" class="nounderline">Hitek</a></span>
+            </label>                       
+            
+        </div>
+
+        <!-- <h6 class="fade-out">Fade Me Down Scotty</h6> -->
+
+    </center>    
+</body>
+
+</html>
