@@ -1,5 +1,7 @@
 FROM tiangolo/uwsgi-nginx:python3.7-alpine3.8
 
+LABEL maintainer="Sebastian Ramirez <tiangolo@gmail.com>"
+
 RUN pip install flask
 
 # URL under which static (not modified by Python) files will be requested
